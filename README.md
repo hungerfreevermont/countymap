@@ -3,7 +3,7 @@
 NOTE: This script is built to allow use on other pages, but is currently tailored
 to http://www.hungerfreevt.org/learn/statistics
 
-In the <head> section of the page, include this line:
+In the < head > section of the page, include this line:
 
 ```html
 <script type="text/javascript" src="https://raw.githubusercontent.com/hungerfreevermont/countymap/master/map_processor.js"></script>
