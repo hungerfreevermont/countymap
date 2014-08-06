@@ -6,7 +6,7 @@ to http://www.hungerfreevt.org/learn/statistics
 In the < head > section of the page, include this line:
 
 ```html
-<script type="text/javascript" src="https://raw.githubusercontent.com/hungerfreevermont/countymap/master/map_processor.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/hungerfreevermont/countymap/master/map_processor.js"></script>
 ```
 
 Directly below the markup for the county map, place the following:
