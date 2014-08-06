@@ -117,7 +117,7 @@ var mapProcessor = function($replace, options) {
         $wrapper = $('<div></div>');
 
     $img.attr('src', getSrc('0'))
-        .attr('usemap', options.mapname)
+        .attr('usemap', '#'+options.mapname)
         .attr('alt', 'Vermont');
 
     $map.attr('name', options.mapname)
