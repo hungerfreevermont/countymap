@@ -120,7 +120,8 @@ var mapProcessor = function($replace, options) {
         .attr('usemap', options.mapname)
         .attr('alt', 'Vermont');
 
-    $map.attr('name', options.mapname);
+    $map.attr('name', options.mapname)
+        .css({ 'z-index': 1001 });
 
     for(i = 0; i < config.length; i += 1) {
       var $area = $('<area></area>');
