@@ -13,10 +13,12 @@ Directly below the markup for the county map, place the following:
 
 ```html
 <script>
-  new mapProcessor(jQuery('img[alt=vermont_map]'), {
-    mapname: 'hfvcounties',
-    filepath: 'http://www.hungerfreevt.org/images/stories/pdfs/countysheets/',
-    size: 'small'
+  jQuery(function() {
+    new mapProcessor(jQuery('img[alt=vermont_map]'), {
+      mapname: 'hfvcounties',
+      filepath: 'http://www.hungerfreevt.org/images/stories/pdfs/countysheets/',
+      size: 'small'
+    });
   });
 </script>
 ```
