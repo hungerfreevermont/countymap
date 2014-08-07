@@ -1,4 +1,13 @@
-'use strict';
+function addJavaScript(filename) {
+  var s=document.createElement('script');
+  s.setAttribute('type','text/javascript');
+  s.setAttribute('src', filename);
+  document.getElementsByTagName('head')[0].appendChild(s);
+}
+
+if(typeof jQuery === 'undefined') {
+  addJavaScript('//code.jquery.com/jquery-1.11.0.min.js');
+}
 
 var mapProcessor = function($replace, options) {
   var config,
