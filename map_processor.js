@@ -139,6 +139,7 @@ var mapProcessor = function($replace, options) {
            .attr('coords', config[i].coords[options.size])
            .attr('shape', 'poly')
            .attr('alt', config[i].title)
+           .attr('title', config[i].title)
            .attr('data-county', (i+1));
 
       $map.append($area);
